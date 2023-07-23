@@ -1,0 +1,201 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 1450px;
+    height: auto;
+}
+.logo{
+    padding-left: 16px;
+    display:flex;
+    width: 128px;
+    height: 128px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin: 32px;
+}
+.icon img{
+    width: 32px;
+    height: 32px;
+}
+.MỚI{
+    color: red;
+    font-weight: 600;
+}
+.GIẢMGIÁ{
+    color: red;
+    font-weight: 600;
+}
+li:hover{
+    transform: scale(1.05);
+}
+.lienket{
+    display: flex;
+}
+.cacnoiban{
+    padding-right: 40px;
+    padding-left: 40px;
+    align-items: center ;
+    margin-left:80px  ;
+}
+.conten {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    width: 644px;
+}
+.item img{
+    width:204px ;
+    height:204px ;
+}
+.item{
+    width:204px ;
+    height:332px ;
+    overflow: hidden; 
+    border: 1px solid #e5e5e5;
+    align-self: center;
+}
+.item .thongtin{
+    width: 188px;
+    height: 112px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    font-family: ui-sans-serif,system-ui,
+    -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,
+    Helvetica Neue,Arial,Noto Sans,sans-serif,
+    Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,
+    Noto Color Emoji;
+    font-size: .875rem; 
+    line-height: 1.25rem;
+}
+.item .thongtin .name{
+    justify-content: space-around;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.item .thongtin .gia{
+    color: red;
+    font-weight: 700;
+}
+.item:hover{
+    transform: scale(1.05);
+}
+a{
+    text-decoration: inherit;
+    color: inherit;
+    padding-bottom: 15px;
+}
+.search-box{
+    display:flex;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+.search-inp{
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    color: #000;
+    border-radius: 5px;
+    padding: 13px 100px 13px 13px;
+    font-size: 15px;
+    border-color: rgba(243,244,246,var(--tw-border-opacity));
+    --tw-border-opacity: 1;
+}
+.search-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.item .thongtin .giamgia{
+    color: red;
+    font-weight: 500;
+}
+.lienket .cacnoiban .shopee{
+    border-radius: 30px;
+    width: 112px;
+    margin-bottom:40px ;
+    border-color: rgba(243,244,246,var(--tw-border-opacity));
+    --tw-border-opacity: 1;
+    padding: 10px 10px 10px 10px;
+
+}
+.lienket .cacnoiban .tiki{
+    border-radius: 30px;
+    width: 112px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom:40px ;
+    border-color: rgba(243,244,246,var(--tw-border-opacity));
+    --tw-border-opacity: 1;
+
+}
+.lienket .cacnoiban .lazada{
+    border-radius: 30px;
+    width: 112px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom:40px ;
+    border-color: rgba(243,244,246,var(--tw-border-opacity));
+    --tw-border-opacity: 1;
+
+}
+.lienket .cacnoiban .sendo{
+    border-radius: 30px;
+    width: 112px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: rgba(243,244,246,var(--tw-border-opacity));
+    --tw-border-opacity: 1;
+
+}
+.lienket .cacnoiban .shopee:hover{
+    transform: scale(1.05);
+}
+.lienket .cacnoiban .tiki:hover{
+    transform: scale(1.05);
+}
+.lienket .cacnoiban .lazada:hover{
+    transform: scale(1.05);
+}
+.lienket .cacnoiban .sendo:hover{
+    transform: scale(1.05);
+}
+.tên{
+    display: flex;
+}
+.mathang{
+    margin-bottom: 10px;
+}
+.cacnoiban .conten{
+    display: flex;
+}
+.conten-1{
+    margin-right: 10px;
+}
+.em-sdt{
+    padding-left: 270px;
+}

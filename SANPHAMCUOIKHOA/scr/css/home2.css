@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 1450px;
+    height: auto;
+}
+.logo{
+    padding-left: 16px;
+    display:flex;
+    width: 128px;
+    height: 128px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin: 32px;
+}
+li:hover{
+    transform: scale(1.05);
+}
+.icon img{
+    width: 32px;
+    height: 32px;
+}
+.MỚI{
+    color: red;
+    font-weight: 600;
+}
+.GIẢMGIÁ{
+    color: red;
+    font-weight: 600;
+}
+.search-box{
+    display:flex;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.search-inp{
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    color: #000;
+    border-radius: 5px;
+    padding: 13px 100px 13px 13px;
+    font-size: 15px;
+    border-color: rgba(243,244,246,var(--tw-border-opacity));
+    --tw-border-opacity: 1;
+}
+.search-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.Tongthongtin{
+    display: flex;
+    padding-top: 20px;
+    overflow: hidden; 
+
+}
+.Tongthongtin img{
+    width: 320px;
+    height: 320px;
+    margin-left: 200px;
+    border: 1px solid #e5e5e5;
+    padding: 5px 5px 5px 5px;
+}
+.Tongthongtin .img:hover{
+    transform: scale(1.05);
+}
+.Tongthongtin .thongtinchitiet{
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.Tongthongtin .thongtinchitiet .name{
+    width: 500px;
+    height: 60px;
+}
+.Tongthongtin .thongtinchitiet .sale{
+    color: red;
+    font-weight: 500;
+}
+.Tongthongtin .thongtinchitiet .sell{
+    color: red;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.button .button-btn{
+    width: 150px;
+    height: 44px;
+    background: darkorange;
+    border-color: rgba(243,244,246,var(--tw-border-opacity));
+    --tw-border-opacity: 1;
+}
+.button .button-btn:hover{
+    transform: scale(1.05);
+}
+.em-sdt{
+    padding-top: 200px;
+    padding-left: 200px;
+}
